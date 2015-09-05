@@ -133,6 +133,9 @@ table { border-collapse: collapse; border-spacing: 0; }
    content of the :before pseudo element. Like a boss. */
 .icon-ghost:before {
     content: "\f600";
+    font-size: .8em;
+    display: inline-block;
+    margin-right: 3px;
 }
 .icon-feed:before {
     content: "\f601";
@@ -1570,12 +1573,15 @@ body:not(.post-template) .post-title {
 
 .site-footer {
     position: relative;
-    margin: 8rem 0 0 0;
-    padding: 1rem 15px;
+    margin: 6rem 0 0 0;
+    padding: 2rem 15px;
+    background: #f7fafb none repeat scroll 0 0;
+    border-top: 1px solid #ebf2f6;
+    color: #bbc7cc;
     font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.75em;
-    color: #BBC7CC;
+    color: #bbc7cc;
 }
 
 .site-footer a {
@@ -1588,19 +1594,13 @@ body:not(.post-template) .post-title {
     border-bottom: #bbc7cc 1px solid;
 }
 
-.poweredby {
-    display: block;
-    width: 45%;
-    float: right;
-    text-align: right;
+.site-footer section {
+    text-align: center;
 }
 
-.copyright {
-    display: block;
-    width: 45%;
-    float: left;
+.site-footer .tips {
+    margin-top: 12px;
 }
-
 
 /* ==========================================================================
    11. Media Queries - Smaller than 900px
