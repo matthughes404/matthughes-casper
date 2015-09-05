@@ -1452,7 +1452,7 @@ body:not(.post-template) .post-title {
 
 /* Correctly position site-footer when next to the .read-next container */
 .read-next + .site-footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
