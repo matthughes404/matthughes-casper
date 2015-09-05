@@ -1575,23 +1575,22 @@ body:not(.post-template) .post-title {
     position: relative;
     margin: 6rem 0 0 0;
     padding: 2rem 15px;
-    background: #f7fafb none repeat scroll 0 0;
-    border-top: 1px solid #ebf2f6;
-    color: #bbc7cc;
+    background: #EAEEF0 none repeat scroll 0 0;
+    border-top: 1px solid #C3CACE;
+    color: #7C878C;
     font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
     line-height: 1.75em;
-    color: #bbc7cc;
 }
 
 .site-footer a {
-    color: #BBC7CC;
+    color: #82888B;
     text-decoration: none;
     font-weight: bold;
 }
 
 .site-footer a:hover {
-    border-bottom: #bbc7cc 1px solid;
+    border-bottom: #82888B 1px solid;
 }
 
 .site-footer section {
