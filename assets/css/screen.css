@@ -551,7 +551,7 @@ body.nav-opened .nav-cover {
     z-index: 5;
     width: 240px;
     opacity: 0;
-    background: #111;
+    background: #333;
     margin-bottom: 0;
     text-align: left;
     overflow-y: auto;
@@ -843,7 +843,7 @@ body.nav-opened .nav {
 /* When the navigation is opened */
 .nav-opened .menu-button {
     padding: 0 12px;
-    background: #111;
+    background: #333;
     border-color: #111;
     color: #fff;
     -webkit-transform: translate3D(94px, 0, 0);
