@@ -1062,9 +1062,18 @@ body:not(.post-template) .post-title {
 }
 
 .post-template .post-date {
+    margin: 8px 0 0 0;
     padding: 0;
-    margin: 0;
     border: none;
+    font-size: 1.8rem;
+    font-weight: bold
+}
+
+.post-template .tags {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    padding-bottom: 8px;
 }
 
 /* Stop elements, such as img wider than the post content, from
