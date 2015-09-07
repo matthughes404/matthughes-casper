@@ -519,6 +519,7 @@ body.nav-opened .site-wrapper {
 
 .main-header h2 {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+    color: #ffffff;
 }
 
 .main-header .inner {
