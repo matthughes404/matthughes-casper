@@ -7,12 +7,20 @@
 {{#post}}
 
 <header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-    <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
+    <nav class="main-nav overlay clearfix">
         {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
         {{#if @blog.navigation}}
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {{/if}}
     </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <a href="{{@blog.url}}" class="blog-link">
+                <span class="blog-title">Matt Hughes</span>
+            </a>
+            <span class="blog-description">tinkerer, grower, craftsman</span>
+        </div>
+    </div>
 </header>
 
 <main class="content" role="main">
