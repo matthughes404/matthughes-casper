@@ -251,7 +251,7 @@ a {
 }
 
 a:hover {
-    color: #111;
+    color: #3D5E46;
 }
 
 p, ul, ol, dl {
@@ -992,7 +992,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-meta a:hover {
-    text-decoration: underline;
+    color: #3D5E46;
 }
 
 .user-meta {
@@ -1640,7 +1640,7 @@ body:not(.post-template) .post-title {
 }
 
 .site-footer a:hover {
-    border-bottom: #82888B 1px solid;
+    color: #3D5E46;
 }
 
 .site-footer section {
