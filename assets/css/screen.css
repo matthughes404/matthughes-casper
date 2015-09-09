@@ -875,7 +875,7 @@ body.nav-opened .nav {
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
-.blog-title {
+.blog-title, .page-title {
     display: block;
     margin: 10px 0 10px 0;
     font-size: 5rem;
@@ -884,7 +884,7 @@ body.nav-opened .nav {
     font-family: "Open Sans", sans-serif;
 }
 
-.blog-description {
+.blog-description, .page-description {
     display: block;
     margin: 0;
     font-size: 1.8rem;
@@ -893,6 +893,12 @@ body.nav-opened .nav {
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
+}
+
+.page-description {
+    margin: 0 auto;
+    max-width: 400px;
+    line-height: 2.2rem;
 }
 
 .no-cover.main-header {
@@ -1825,6 +1831,11 @@ body:not(.post-template) .post-title {
         font-size: 1rem;
     }
 
+    h2.page-description {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+
     .main-nav {
         padding: 5px;
         margin-bottom: 2rem;
@@ -1934,7 +1945,7 @@ body:not(.post-template) .post-title {
     }
 
     .page-description {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 
     h1, h2, h3,
@@ -1948,7 +1959,7 @@ body:not(.post-template) .post-title {
     }
 
     h2 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
         letter-spacing: 0;
     }
 
