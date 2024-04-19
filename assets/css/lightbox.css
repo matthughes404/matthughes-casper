@@ -167,6 +167,7 @@ body.lb-disable-scrolling {
   font-size: 13px;
   font-weight: bold;
   line-height: 1em;
+  font-family: "Open Sans", sans-serif;
 }
 
 .lb-data .lb-caption a {
@@ -201,4 +202,17 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+a[data-lightbox] img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: .25em .75em .25em 0;
+  padding: 4px;
+  border: 1px solid #999999;
+  /* override casper theme's image centering */
+  left: 0;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
 }
